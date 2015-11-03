@@ -29,25 +29,6 @@ public class MessagesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_messages);
         listView = (ListView) findViewById(R.id.messagesListView);
-
-//        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-//            @Override
-//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//                ParseObject message = messages.get(position);
-//                message.deleteInBackground(new DeleteCallback() {
-//                    @Override
-//                    public void done(ParseException e) {
-//                        if (e == null) {
-//                            Log.d("demo", "deleted successfully");
-//                        } else {
-//                            Log.d("demo", "deleted not successfully");
-//                        }
-//
-//                    }
-//                });
-//            }
-//        });
-
     }
 
     @Override
@@ -83,6 +64,8 @@ public class MessagesActivity extends AppCompatActivity {
                 @Override
                 public void done(ParseException e) {
                     finish();
+                    Intent intent = new Intent(MessagesActivity.this, MainActivity.class);
+                    startActivity(intent);
                 }
             });
         }
