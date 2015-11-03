@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="com.parse.starter.SignUpActivity">
+
+    <EditText
+        android:hint="@string/user_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fullName"
+        android:inputType="text"/>
+    <EditText
+        android:hint="@string/email_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signUpEmail"
+        android:layout_below="@id/fullName"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_label"
+        android:layout_below="@id/signUpEmail"
+        android:id="@+id/signUpPasswordInput"
+        android:inputType="textPassword"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_confirmation"
+        android:layout_below="@id/signUpPasswordInput"
+        android:id="@+id/signUpPasswordConfirmation"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up_label"
+        android:layout_below="@id/signUpPasswordConfirmation"
+        android:id="@+id/signUpButton"
+        android:onClick="signUpUser"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/cancel_label"
+        android:layout_below="@id/signUpButton"
+        android:onClick="cancelSignUp"/>
+
+</RelativeLayout>

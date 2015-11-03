@@ -1,0 +1,50 @@
+<!--
+  ~ Copyright (c) 2015-present, Parse, LLC.
+  ~ All rights reserved.
+  ~
+  ~ This source code is licensed under the BSD-style license found in the
+  ~ LICENSE file in the root directory of this source tree. An additional grant
+  ~ of patent rights can be found in the PATENTS file in the same directory.
+  -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity">
+
+    <EditText
+        android:hint="@string/email_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginEmailInput"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:hint="@string/password_label"
+        android:layout_below="@id/loginEmailInput"
+        android:layout_width="match_parent"
+        android:id="@+id/loginPasswordInput"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_label"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/loginPasswordInput"
+        android:id="@+id/loginButton"
+        android:onClick="loginUser"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/create_account_label"
+        android:layout_below="@id/loginButton"
+        android:onClick="signUpForParse"/>
+</RelativeLayout>
+<!-- From: file:/Users/batesjernigan/AndroidStudioProjects/Parse-Starter-Project-1.10.3/ParseStarterProject/src/main/res/layout/activity_main.xml -->

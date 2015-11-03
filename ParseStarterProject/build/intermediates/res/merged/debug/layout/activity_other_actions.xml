@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="com.parse.starter.OtherActions">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create new Data"
+        android:onClick="createData"
+        android:id="@+id/queryButton"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/queryButton"
+        android:text="Classic Query"
+        android:id="@+id/classicQuery"
+        android:onClick="classicQuery"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/classicQuery"
+        android:text="Custom Query"
+        android:id="@+id/customQuery"
+        android:onClick="customQuery"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customQuery"
+        android:text="Logout"
+        android:onClick="logoutUser"/>
+
+
+
+</RelativeLayout>
+<!-- From: file:/Users/batesjernigan/AndroidStudioProjects/Parse-Starter-Project-1.10.3/ParseStarterProject/src/main/res/layout/activity_other_actions.xml -->

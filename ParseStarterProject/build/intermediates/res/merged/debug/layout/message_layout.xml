@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deleteImage"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/messagePartialFullName"
+        android:text="Test"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/messagePartialFullName"
+        android:id="@+id/messageContent"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/messageContent"
+        android:id="@+id/createdAt"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+</RelativeLayout>
+<!-- From: file:/Users/batesjernigan/AndroidStudioProjects/Parse-Starter-Project-1.10.3/ParseStarterProject/src/main/res/layout/message_layout.xml -->
