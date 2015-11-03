@@ -2,32 +2,46 @@
 <items version="2" >
 
     <item
-        jar="/Users/batesjernigan/AndroidStudioProjects/Parse-Starter-Project-1.10.3/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jar="C:\Users\arjun\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.10.3\36366e460af2c0f224bb8f70b64e3302f638b138\parse-android-1.10.3.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
-        <dex dex="/Users/batesjernigan/AndroidStudioProjects/Parse-Starter-Project-1.10.3/ParseStarterProject/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-10f369c9f7ff6a4c04a5c4179d99f4b8fbb4a007.jar" />
+        sha1="36366e460af2c0f224bb8f70b64e3302f638b138">
+        <dex dex="F:\Android_Projects\MessageAppParseBackend\ParseStarterProject\build\intermediates\pre-dexed\debug\parse-android-1.10.3-c211b9dcd07d5a28f60a495f06565e1f3d00e3eb.jar" />
     </item>
     <item
-        jar="/Users/batesjernigan/AndroidStudioProjects/Parse-Starter-Project-1.10.3/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jar="F:\Android_Projects\MessageAppParseBackend\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="/Users/batesjernigan/AndroidStudioProjects/Parse-Starter-Project-1.10.3/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-00df26b941baf6ea706f04afda63ee5575e33097.jar" />
+        <dex dex="F:\Android_Projects\MessageAppParseBackend\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-f58c31567c2e43cae525f1292c2b3687fdcf3cb2.jar" />
     </item>
     <item
-        jar="/Users/batesjernigan/AndroidStudioProjects/Parse-Starter-Project-1.10.3/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jar="C:\Users\arjun\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.1\44780c2cf98f6a3cf4e77f1234d644758b329201\bolts-android-1.2.1.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="/Users/batesjernigan/AndroidStudioProjects/Parse-Starter-Project-1.10.3/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-a889a77f8a231ac85aa3975650e9eb2e1de8ac6a.jar" />
+        sha1="44780c2cf98f6a3cf4e77f1234d644758b329201">
+        <dex dex="F:\Android_Projects\MessageAppParseBackend\ParseStarterProject\build\intermediates\pre-dexed\debug\bolts-android-1.2.1-6313bb2aa4809010808315c13c9cb2424499d897.jar" />
     </item>
     <item
-        jar="/Users/batesjernigan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jar="C:\Users\arjun\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="92e3fc113ec3ee36b64603a38857b95700025633">
-        <dex dex="/Users/batesjernigan/AndroidStudioProjects/Parse-Starter-Project-1.10.3/ParseStarterProject/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-fea24caece19bccc1f9256989202d98632c06b76.jar" />
+        <dex dex="F:\Android_Projects\MessageAppParseBackend\ParseStarterProject\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-575d6e404365b7229bdeaec293e857b044ca7553.jar" />
+    </item>
+    <item
+        jar="F:\Android_Projects\MessageAppParseBackend\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="F:\Android_Projects\MessageAppParseBackend\ParseStarterProject\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-f9ae7da72a36fca10298635e503abaa688992d28.jar" />
+    </item>
+    <item
+        jar="F:\Android_Projects\MessageAppParseBackend\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="F:\Android_Projects\MessageAppParseBackend\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-ed9f5a147847494db81a3fbcafbf05b590b703de.jar" />
     </item>
 
 </items>

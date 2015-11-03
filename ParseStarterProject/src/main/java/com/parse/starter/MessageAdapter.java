@@ -54,10 +54,12 @@ public class MessageAdapter extends ArrayAdapter<ParseObject> {
         dateField.setText(message.getCreatedAt().toString());
 
         if(user.equals(ParseUser.getCurrentUser())) {
-            Drawable image = mContext.getDrawable(R.drawable.bin);
+            //Drawable image = mContext.getDrawable(R.drawable.bin);
+
+            Drawable image = mContext.getResources().getDrawable(R.drawable.bin);
+            //mContext.getDrawable(R.drawable.bin);
             deleteImage.setImageDrawable(image);
         }
-
         deleteImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

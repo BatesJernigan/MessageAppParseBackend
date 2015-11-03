@@ -83,6 +83,8 @@ public class MessagesActivity extends AppCompatActivity {
                 @Override
                 public void done(ParseException e) {
                     finish();
+                    Intent intent = new Intent(MessagesActivity.this, MainActivity.class);
+                    startActivity(intent);
                 }
             });
         }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/batesjernigan/AndroidStudioProjects/Parse-Starter-Project-1.10.3/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-w500dp/values-w500dp.xml -->
+    <!-- From: file:/F:/Android_Projects/MessageAppParseBackend/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-w500dp/values-w500dp.xml -->
     <eat-comment/>
     <integer name="abc_max_action_buttons">4</integer>
 </resources>
